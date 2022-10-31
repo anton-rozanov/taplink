@@ -6,29 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Card WebSite</title>
 </head>
 <body>
   <div class="page-wrapper">
     <header class="header">
-      <span class="hello">hello</span>
-      <p class="hello-text">Делаю сайты на заказ:
-      <br>Дизайн,код продвижение</p>
+      <span class="hello">Hello, world! 🖥️</span>
+      <p class="hello-text">Web-design, programming, constant learning 
+      <br> Best of the best!</p>
     </header>
-    <div class="conteiner">
+    <div class="container">
       <div class="user">
-        <img width="76" height="76" src="img/avatar.png" alt="Anton Rozanov" class="user-avatar">
-        <h1 class="user-name"> Anton Rozanov</h1>
-        <p class="user-description">Web-Developer</p>
+        <img width="76"
+         height="76" 
+         src="img/avatar.png" 
+         alt="Anton Rozanov" 
+         class="user-avatar">
+        <h1 class="user-name">Anton Rozanov</h1>
+        <p class="user-description">Web-developer</p>
       </div>
+      <!-- /.user -->
+      <div class="card">
+        <div class="buttons">
+          <a href="https://vk.com/toxa0009" target="_blank" class="button vk"> 
+            <img src="img/icons/vk.svg" alt="" class="button-icon"> </a>
+          <a href="https://t.me/Anton_Rozanov" target="_blank" class="button tg">
+            <img src="img/icons/tg.svg" alt="" class="button-icon"> </a>
+          </a>
+          <a href="https://www.youtube.com/channel/MrBeast6000" target="_blank" class="button yt">
+            <img src="img/icons/youtube.svg" alt="" class="button-icon"> </a>
+          </a>
+        </div>
+        <!-- /.buttons -->
+        <a href="https://github.com/anton-rozanov" target="_blank"  class="button github">
+          <img src="img/icons/Vector.svg" alt="" class="button-icon" /> <span class="button-text">Github profile</span></a>
+        </a>
+      </div>
+      <!-- /.card -->
     </div>
-    <!-- /.conteiner -->
-    <!-- /.user -->
+    <!-- /.container -->
   </div>
   <!-- /.page-wrapper -->
-  <script src="js/main.js"></script>
+  
+<script src="js/main.js"></script>  
 </body>
 </html>
